@@ -1,0 +1,25 @@
+
+#!/bin/bash
+
+
+################
+#Author
+#Date: 20/09/2025
+
+#This script outputs the node health
+
+#Version: v1
+
+################
+
+set -x #debug mode
+set -e #exit the script when there is an error
+set -o pipefail # exit the script when there is error in pipefail
+
+df -h
+
+free -g
+
+nproc
+
+#ps -ef | grep amazon | awk -F" " '{print $2}'

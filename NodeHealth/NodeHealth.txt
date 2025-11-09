@@ -3,7 +3,7 @@
 
 
 ################
-#Author
+#Author : Puneet Kumar Singh
 #Date: 20/09/2025
 
 #This script outputs the node health
@@ -23,3 +23,4 @@ free -g
 nproc
 
 #ps -ef | grep amazon | awk -F" " '{print $2}'
+
